@@ -1,0 +1,13 @@
+﻿Project Name,Facebook,,,,,,,,,,,,
+Module Name,Login,,,,,,,,,,,,
+Created By,Usha,,,,,,,,,,,,
+Creation Date,07-12-2025,,,,,,,,,,,,
+Reviewed By,Anaye,,,,,,,,,,,,
+Reviewed Date,07-15-2025,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Test Scenario ID,Test Scenario Description,Test Case ID,Test Case Description,Test Steps,PreCondition,Test Data,Post Condition,Expected Result,Actual Result,Status,Executed By,Executed Date,Comments (If any)
+TS_001,Verify the login functionality of facebook login page,TC_Login001,Enter a valid  username and password,1. Enter valid username 2.  Enter valid password 3. Click on login button,Test data Valid Url,ushanazare@gmail.com Password:XXXXXXX,Use should able to see home page,Successful Login,Unsuccessful Login,Fail,Rushikesh,07-13-2025,
+,,TC_Login002,Enter a valid  username and invalid password,1. Enter valid username 2.  Enter invalid password 3. Click on login button,Test data Valid Url,ushanazare@gmail.com Password:XXX23,User name or password is invalid,"A pop message box  to show an error ""Invalid username or password""","Invalid username or password""",Pass,Rushikesh,07-13-2025,
+,,TC_Login003,Enter an invalid  username and valid password,1. Enter invalid username 2.  Enter valid password 3. Click on login button,Test data Valid Url,ushana12@gmail.com Password:XXXXXXX,User name or password is invalid,"A pop message box  to show an error ""Invalid username or password""","Invalid username or password""",Pass,Rushikesh,07-13-2025,
+,,TC_Login004,Enter invalid  username and password,1. Enter invalid username 2.  Enter invalid password 3. Click on login button,Test data Valid Url,ushanz12are@gmail.com Password:XX2XXXXX,User name or password is invalid,"A pop message box  to show an error ""Invalid username or password""","Invalid username or password""",Pass,Rushikesh,07-14-2025,
