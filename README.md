@@ -1,6 +1,3 @@
-📘 Project Title
-
-Facebook Login Functionality — Manual Testing
 
 📋 Project Summary:
 
@@ -10,6 +7,7 @@ The testing includes manual test case documentation, execution results, and defe
 
 The goal is to validate login behavior for positive and negative scenarios and to record results.
 
+---
 📊 Test Execution Summary:
 
 Total Test Cases: 4
@@ -19,6 +17,8 @@ Passed: 3
 Failed: 1
 
 Blocked / Not Run: 0
+
+---
 
 🧪 Test Execution Summary
 
@@ -32,6 +32,7 @@ Blocked / Not Run: 0
 
 | TC_Login004 | Invalid username and password | Error message displayed | As expected | ✅ Pass |
 
+---
 🐞 Defect Logged (Jira)
 
 Issue Title: Login Failed with Valid Credentials
@@ -56,6 +57,7 @@ Status: ❌ Failed
 
 Environment: www.demoapp@xyz
 
+---
 Suggested next steps:
 
 Check for any error messages on the page.
@@ -64,6 +66,7 @@ Reconfirm the test credentials are correct.
 
 Try the same steps in another browser.
 
+---
 🧰 Test Artifacts
 
 Test Case Document: Facebook Login Functionality Test Case.xlsx
@@ -74,6 +77,7 @@ Test Type: Functional Testing
 
 Testing Approach: Positive and Negative testing
 
+---
 📅 Project Timeline
 
 | Activity | Date |
@@ -86,6 +90,7 @@ Testing Approach: Positive and Negative testing
 
 | Jira Bug Logged | 16-Jul-2025 |
 
+---
 📈 Tools Used
 
 Test Case Management: Excel
@@ -95,6 +100,8 @@ Bug Tracking: Jira
 Environment: Web Application (Facebook)
 
 Browser Used: Chrome
+
+---
 
 👩‍💻 Author
 
