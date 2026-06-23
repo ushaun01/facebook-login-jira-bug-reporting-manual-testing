@@ -1,6 +1,6 @@
 
 📋 Project Summary:
-
+ 
 This repository contains a small manual testing suite for the Facebook login functionality.
 
 The testing includes manual test case documentation, execution results, and defect tracking and bug reporting using Jira
